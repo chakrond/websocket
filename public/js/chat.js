@@ -1,7 +1,7 @@
 const socket = io()
 
 // Options
-const { username, room } = Qs.parse(location.search, { ignoreQueryPrefix: true }) // get quirey string
+const { username, room } = Qs.parse(location.search, { ignoreQueryPrefix: true }) // get query string **username and room
 
 // Msg elements
 const msgForm = document.querySelector('#msgform')
